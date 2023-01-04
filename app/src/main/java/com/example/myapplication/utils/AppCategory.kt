@@ -1,0 +1,13 @@
+package com.example.myapplication.utils
+
+enum class AppCategory {
+    CATEGORY_UNDEFINED,
+    CATEGORY_GAME,
+    CATEGORY_AUDIO,
+    CATEGORY_VIDEO,
+    CATEGORY_IMAGE,
+    CATEGORY_SOCIAL,
+    CATEGORY_NEWS,
+    CATEGORY_MAPS,
+    CATEGORY_PRODUCTIVITY
+}

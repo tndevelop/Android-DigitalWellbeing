@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_tutorial"
+        android:orderInCategory="100"
+        android:title="@string/action_tutorial"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reset_int"
+        android:orderInCategory="100"
+        android:title="@string/reset_int"
+        app:showAsAction="never" />
+
+</menu>

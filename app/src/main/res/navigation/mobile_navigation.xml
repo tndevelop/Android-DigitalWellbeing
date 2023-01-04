@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_paths">
+
+    <fragment
+        android:id="@+id/nav_home_paths"
+        android:name="com.example.myapplication.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_paths_to_nav_add_path"
+            app:destination="@id/nav_app_selection" />
+        <action
+            android:id="@+id/action_nav_home_paths_to_nav_intervention2_recap"
+            app:destination="@id/nav_intervention2_recap" />
+        <action
+            android:id="@+id/action_nav_home_paths_to_nav_chat"
+            app:destination="@id/nav_chat" />
+    </fragment>
+
+    <fragment android:id="@+id/nav_app_selection"
+        android:name="com.example.myapplication.fragments.AppSelectionFragment"
+        android:label="Select an Application"
+        tools:layout="@layout/fragment_app_selection">
+        <action
+            android:id="@+id/action_nav_app_selection_to_nav_chat"
+            app:destination="@id/nav_chat" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_intervention2_recap"
+        android:name="com.example.myapplication.fragments.Intervention2RecapFragment"
+        android:label="Path 2 Recap"
+        tools:layout="@layout/fragment_intervention2_recap">
+        <action
+            android:id="@+id/action_nav_intervention2_recap_to_nav_home_paths"
+            app:destination="@id/nav_home_paths"
+            app:popUpTo="@id/nav_home_paths"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_nav_intervention2_recap_to_createPathFragment"
+            app:destination="@id/createPathFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_notification_list"
+        android:name="com.example.myapplication.fragments.NotificationListFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notification_list">
+        <action
+            android:id="@+id/action_nav_notification_list_to_nav_chat"
+            app:destination="@id/nav_chat" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_phone_monitoring"
+        android:name="com.example.myapplication.fragments.PhoneMonitoringFragment"
+        android:label="Phone Statistics"
+        tools:layout="@layout/fragment_monitoring_phone">
+        <action
+            android:id="@+id/action_nav_phone_monitoring_to_nav_app_monitoring"
+            app:destination="@id/nav_app_monitoring" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_app_monitoring"
+        android:name="com.example.myapplication.fragments.AppMonitoringFragment"
+        android:label="App Statistics"
+        tools:layout="@layout/fragment_monitoring_app"/>
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.myapplication.fragments.ChatFragment"
+        android:label="@string/label_chat"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_nav_chat_to_createPathFragment"
+            app:destination="@id/createPathFragment" />
+        <action
+            android:id="@+id/action_nav_chat_to_nav_home_paths"
+            app:destination="@id/nav_home_paths" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPathFragment"
+        android:name="com.example.myapplication.fragments.CreatePathFragment"
+        android:label="@string/label_path_creation"
+        tools:layout="@layout/fragment_create_path">
+        <action
+            android:id="@+id/action_createPathFragment_self"
+            app:destination="@id/createPathFragment" />
+        <action
+            android:id="@+id/action_createPathFragment_to_nav_home_paths"
+            app:destination="@id/nav_home_paths" />
+        <action
+            android:id="@+id/action_createPathFragment_to_nav_chat"
+            app:destination="@id/nav_chat" />
+    </fragment>
+
+
+</navigation>

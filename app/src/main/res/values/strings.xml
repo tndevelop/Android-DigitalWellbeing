@@ -1,0 +1,273 @@
+<resources>
+    <string name="chatbot_api">/webhooks/rest/</string>
+
+    <string name="app_name">StepByStep</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Paths</string>
+    <string name="menu_monitoring">Monitoring</string>
+    <string name="empty_msg_path">No active paths.\n If you want to start working on a specific application, click on the "+" button. Otherwise, wait for StepByStep to suggest one app to work on.</string>
+    <string name="empty_msg_notifications">No new notifications</string>
+    <string name="add_path_label">Create a new path</string>
+    <string name="recap">RECAP</string>
+    <string name="path_icon">Path icon</string>
+
+    <string name="intervention2">Intervention 2</string>
+    <string name="intervention_recap">Intervention Recap</string>
+    <string name="intervention2_time">Intervention duration</string>
+    <string name="level_placeholder">Level %1$d</string>
+    <string name="path_placeholder">Path %1$s</string>
+    <string name="path1">Path 1</string>
+    <string name="path2">Path 2</string>
+    <string name="version1">Version 1</string>
+    <string name="version2">Version 2</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+    <string name="pause_button">Pause</string>
+    <string name="restart_button">Restart</string>
+    <string name="change_button">Change</string>
+    <string name="app">Application: example</string>
+    <string name="app_list">App List: example, example …</string>
+    <string name="recap_icon_desc">recap_icon</string>
+    <string name="select_intervention_version">Select Intervention version</string>
+    <string name="version2_info">Select this version if you need to use the phone but you don\'t want to use some apps for the duration of the Intervention. \nThe Intervention will try to make you avoid opening the selected apps.</string>
+    <string name="intervention_active">Intervention in progress</string>
+
+    <string name="logout_button_desc">logout button</string>
+    <string name="login_button">Sign in with Google</string>
+    <string name="login">Login</string>
+    <string name="permission_admin">ADMIN PERMISSION</string>
+    <string name="permission_usage_stats">PHONE PERMISSION</string>
+    <string name="permission_popup">POPUP PERMISSION</string>
+    <string name="permission_battery">BATTERY OPTIMIZATION</string>
+    <string name="permission_startup">STARTUP PERMISSION</string>
+    <string name="permission_brightness">BRIGHTNESS PERMISSION</string>
+    <string name="permission_admin_description">StepByStep needs your permission to become an admin app. This permission is only required to automatically lock the screen in certain cases.</string>
+    <string name="permission_usage_stats_description">StepByStep needs the permission to collect data about your smartphone and apps usage.\nAfter giving the permission, you will need to go back to the app by clicking the back button of your phone.</string>
+    <string name="permission_popup_description">StepByStep needs your permission to show you a dialog while you are using other apps.\nAfter giving the permission, you will need to go back to the app by clicking the back button of your phone.</string>
+    <string name="permission_battery_description">Sometimes, the usage of apps such as StepByStep can be restricted by the phone. Check your battery optimization settings and allow StepByStep so that it can be launched at startup and won\'t be killed by the phone.</string>
+    <string name="permission_startup_description">StepByStep needs your permission to be launched automatically. This permission could be already set.\nAfter giving the permission, you will need to go back to the app by clicking the back button of your phone.</string>
+    <string name="permission_brightness_description">StepByStep needs your permission to change the display brightness</string>
+    <string name="button_give_permission">GIVE PERMISSION</string>
+    <string name="error_admin">You must enable StepByStep as an admin application</string>
+    <string name="tokenId_googleSingIn">1027994635932-ni0mf6sgijtpi8k6c9jm1iq6ggv3pt9d.apps.googleusercontent.com</string>
+
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="info">Info</string>
+    <string name="ok">OK</string>
+
+    <string name="popup1_int2">One minute left to the end of the Intervention! Eye on the clock!</string>
+    <string name="popup2_int2">You exceeded the Intervention duration by one minute! You should close %1$s and stop the Intervention.</string>
+    <string name="popup3_int2">You exceeded the Intervention duration by a lot! Close %1$s and stop the Intervention.</string>
+    <string name="results">Results</string>
+    <string name="evaluation_excellent">Excellent!</string>
+    <string name="evaluation_good">Nice . Now aim for the top</string>
+    <string name="evaluation_normal">Not bad, but you can do better</string>
+    <string name="evaluation_bad">You still have some work to do</string>
+    <string name="evaluation_worst">C\'mon, I know you can do better</string>
+    <string name="penalty1">App opened via Intervention</string>
+    <string name="penalty2">Set duration respected</string>
+    <string name="penalty3">Set duration slightly exceeded (\u003C 3 min)</string>
+    <string name="delay_seconds">Total time exceeded</string>
+    <string name="seconds">%1$d seconds</string>
+    <string name="time_exceed">> 3 minutes</string>
+    <string name="level_up_available">The Path\'s recap for level up is now available.</string>
+    <string name="icon_yes_no_label">Icon Yes/No</string>
+
+    <string name="check_icon">Check icon</string>
+    <string name="application_icon">Application icon</string>
+    <string name="application_name">Application Name</string>
+    <string name="path_creation_title">Duplicate Path</string>
+    <string name="path_creation_message">You will start a Monitoring Period on the application %1$s. \nFor the first week you just have to use your phone as usual but check StepByStep once per day.</string>
+    <string name="path_already_created_message">You already have an active Path regarding the application %1$s. Do you want to start another one regardless?</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_undo">Cancel</string>
+
+    <string name="n_interventions">Number of Interventions used in this level: %1$d</string>
+    <string name="n_start_penalty">Total number of late Intervention opening</string>
+    <string name="n_end_penalty">Total number of times the set duration was, even slightly, exceeded</string>
+    <string name="n_end_seconds">Total seconds of excess in these cases</string>
+    <string name="n_delay_penalty">Total number of time the duration was exceeded by a lot (> 2 times the duration set)</string>
+
+    <string name="path_levelUp_title">Level Up</string>
+    <string name="path_levelDown_title">Level Down</string>
+    <string name="path_levelMax_title">Path concluded</string>
+    <string name="path_levelUp_text">You will move up a level in this Path. Do your best!</string>
+    <string name="path_levelDown_text">You will move down a level in this Path. Work hard and you will return here in no time.</string>
+    <string name="info_intervention_end">Congratulations! You completed the Path with this application.\nNow you should be able to use the app the way you want without any help.</string>
+    <string name="info_intervention2">This Intervention is focused on the situations in which you decide to dedicate some time to use an application. \nThe objective of this Intervention is to help you keeping in check the time spent on th app. You will be asked to decide how much time you intend to spend on the app beforehand and you will have to try to keep your word. \nRemember to always activate this Intervention before opening the app, or else penalties will be added</string>
+    <string name="info_intervention2_level1">In this level many clues will hep you to stick to the correct behaviour. \nPop-up windows will appear in certain situations. During the Intervention, the phone will vibrate or brightness will drop down to remember you to check the time.</string>
+    <string name="info_intervention2_level2">In this level you will have less clues to help you. Pop-up windows, vibrations and brightness drops will be rarer.</string>
+    <string name="info_intervention2_level3">In this level the clues are few. No pop-up windows and even fewer vibrations or brightness drops.</string>
+    <string name="info_intervention2_level4">In this level there will be no more inputs to help you. Do your best!</string>
+    <string name="level_down">Probably you weren\'t ready for this, let\'s move down a level and try again.</string>
+    <string name="level_up">Your results are amazing! Let\'s go up by a level and continue like this.</string>
+    <string name="level_same">Not bad nor good, the level will not change. Just improve a little and you will do it.</string>
+    <string name="level_max">Congratulations! You successfully completed the maximum level of this intervention.</string>
+
+    <string name="notification_title">Title</string>
+    <string name="notification_date">Date</string>
+    <string name="notification_title_bad_usage">Bad application usage</string>
+    <string name="date_text">Date: %1$s</string>
+    <string name="app_question">I noticed you have used a lot a certain application in the last 24h. Are you able to tell me which one?</string>
+    <string name="time_question">%1$s You used a lot the app %2$s. Can you also tell me how much time you spent on it?</string>
+    <string name="exposition">Application usage (hh:mm) : %1$s.\nApplication opened: %2$s times</string>
+    <string name="path_question_no_prev">If you want to reduce your overall usage of this application, can I suggest to start a path on this app?</string>
+    <string name="time_picker">Select approximately the number of hours you spent on this app</string>
+    <string name="selected_app">Selected app: %1$s</string>
+    <string name="selected_app_label">Selected app: </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="new_path_start">Let\'s start</string>
+    <string name="new_path_no_start">No, not now</string>
+    <string name="new_path_forget">No, and don\'t ask again</string>
+
+    <string name="not_yet_fw">It\'s still too early for the operation. \nCome again at 21:00.</string>
+    <string name="already_done">You already did the estimation today. Come again tomorrow at 21:00.</string>
+    <string name="time_question_fw">Try to approximately estimate the number of hours you passed on %1$s today</string>
+    <string name="time_answer_label_fw">Hours spent on the app:</string>
+    <string name="access_question_fw">Now try to estimate the number of times you opened %1$s today</string>
+    <string name="access_hint_fw">Number of accesses</string>
+    <string name="end_fw_title">End of Monitoring Period</string>
+    <string name="end_fw_message">You are ready to start a Path regarding %1$s.\n Go back to the home screen and click on the recap.</string>
+
+    <string name="exposition_fwr">In the last days, you estimated your daily use of %1$s.\nThe purpose of this period was to make yourself conscious of your ability to perceive your average daily use of this app.</string>
+    <string name="usage_title">Total application usage</string>
+    <string name="usage_message">These are data on your real app usage in the last period</string>
+    <string name="usage_time">Time spent (hh:mm) : %1$s</string>
+    <string name="usage_access">Number of accesses: %1$d</string>
+    <string name="suggestion_fwr_Int1">In my opinion, the main problem with %1$s is the huge number of times you opened it, even if you don\'t spend too much time on it. \nFor this reason, I suggest starting Path 1 on this app.</string>
+    <string name="suggestion_fwr_Int2">In my opinion, the main problem with %1$s is the amount of time you pass using it. \nFor this reason, I suggest starting Path 2 on this app.</string>
+    <string name="suggestion_fwr_bothInt">It appears you have problem with this app concerning both the total time you spend on it and the number of times you open it. \nFor this reason, I suggest starting both Paths.</string>
+    <string name="suggestion_fwr_none">In the last days you\'ve  kept an overall good behaviour on this app, so I don\'t have a specific Path to suggest. \nIf you want you can start a Path of your choice.</string>
+    <string name="button_info_title">Do you need additional information about the Paths?</string>
+    <string name="button_ok_fwr">OK</string>
+    <string name="button_no_just1_fwr">No, start only Path 1</string>
+    <string name="button_no_just2_fwr">No, start only Path 2</string>
+    <string name="button_no_other1_fwr">No, start Path 1 instead</string>
+    <string name="button_no_other2_fwr">No, start Path 2 instead</string>
+    <string name="button_yes_1_fwr">Start Path 1</string>
+    <string name="button_yes_2_fwr">Start Path 2</string>
+    <string name="button_yes_both_fwr">Start both paths</string>
+    <string name="button_nothing">Do nothing</string>
+
+    <string name="screen_time">"Used for (hh:mm): %1$s"</string>
+    <string name="n_openings">Opened: %1$d times</string>
+    <string name="no_data">No data available</string>
+    <string name="label_app_statistics_list">Per-app statistics</string>
+    <string name="label_screen_time">Time Spent</string>
+    <string name="label_others">Others</string>
+    <string name="remove">Remove</string>
+    <string name="excluded_app_text">%1$s is marked as an app that don\'t have to be considered when proposing new Paths.\nDo you wish to remove it from this group?</string>
+
+    <string name="notification_default_name">Default app notification</string>
+    <string name="notification_default_description">Channel used by the app notifications</string>
+    <string name="notification_default_foreground_name">Default app foreground service notification</string>
+    <string name="notification_default_foreground_description">Channel used by the app for the notification of the foreground services started on boot</string>
+    <string name="notification_interventions_name">Intervention notifications</string>
+    <string name="notification_interventions_description">Channel used for the foreground notifications of the interventions</string>
+    <string name="notification_content_int2">Intervention running</string>
+    <string name="notification_monitoring_phase_ended">Monitoring Period ended</string>
+    <string name="notification_path_suggestion">Suggestion to start monitoring an app</string>
+    <string name="notification_recap">Recap available</string>
+
+    <string name="path_exist_title">Path already existing</string>
+    <string name="path1_exist_message">It appears you already have an active Path 1, so i will add this application to the existing Path.</string>
+    <string name="path1_exist_message_both">It appears you already have an active Path 1, so i will add this application to the existing path.\nThe new Path 2 will be created normally.</string>
+    <string name="path2_exist_message">It appears you already have an active Path 2 on this app, and it\'s not possible to have two Paths of the same type on the same application.</string>
+    <string name="path2_exist_message_both">It appears you already have an active Path 2 on this app, and it\'s not possible to have two Paths of the same type on the same application.\nThe new Path 1 will be created normally.</string>
+    <string name="both_exist_message">It appears you already have both an active Path 1 and an active Path 2 on this app.\nUse these instead of creating a new Path (I will add this application to the existing Path 1).</string>
+    <string name="abort_message">You won\'t create any new Paths on this application. All the data collected in the Monitoring Period will be deleted.</string>
+
+    <string name="inactivity_message">In the last few days you have never activated Path 1 Interventions. \nPlease be honest and tell us if you forgot to activate it (a penalty will be applied during the next recap) or if you simply did\'t need to use it.</string>
+    <string name="inactivity_button1">I forgot to</string>
+    <string name="inactivity_button2">I didn\'t need to</string>
+
+    <string name="delete_path_title">Delete selected Path</string>
+    <string name="delete_path_message">Are you sure you want to delete the selected path? \nOnce deleted, all the progressions will be lost.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="fw_hour_array">
+        <item>\u003C1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>\u003E8</item>
+    </string-array>
+
+    <string name="level_visual_description">level visual description</string>
+    <string name="label_notifications">Notifications</string>
+    <string name="timer_button">Set time</string>
+    <string name="visual_result_recap">Visual Result</string>
+
+    <string name="ext_time">Estimated time spent: %1$s</string>
+    <string name="ext_accesses">Estimated number of accesses: %1$s</string>
+    <string name="real_time">Real time spent (hh:mm) : %1$s</string>
+    <string name="real_accesses">Real number of accesses: %1$d</string>
+    <string name="fw_evaluation_good">You got it!</string>
+    <string name="fw_evaluation_normal">Close</string>
+    <string name="fw_evaluation_bad">Off the mark..</string>
+
+    <string name="action_tutorial">Tutorial</string>
+    <string name="tutorial_intro_title">Welcome!</string>
+    <string name="tutorial_intro">StepByStep is an application designed to help you understand and learn how to use your device better.</string>
+    <string name="tutorial_p1_title">Monitoring</string>
+    <string name="tutorial_p1">You can monitor your daily phone usage on the Monitoring screen.</string>
+    <string name="tutorial_p2_title">Monitoring Phase</string>
+    <string name="tutorial_p2">When you first install StepByStep a 7 days monitoring period will start. In this phase most of StepByStep functionalities won\'t be available and we will monitor your phone usage for the experiment. Please use your phone as usual and remember that all data are collected anonymously.\n StepByStep will notify you when this period ends.</string>
+    <string name="tutorial_p3_title">Paths</string>
+    <string name="tutorial_p3">A Path is an incremental program that should help you learn how to correctly use an application.\nA Path is made of some Interventions that will activate when you use the app.</string>
+    <string name="tutorial_p4_title">Interventions</string>
+    <string name="tutorial_p4">When you start using an app the intervention will take care of keeping you aware, using scheduled vibrations and brightness drops. \nYour behaviour during the Intervention will be monitored and evaluated at the end.</string>
+    <string name="tutorial_p5_title">Levels</string>
+    <string name="tutorial_p5">Once you have done a certain number of Interventions, the results will be analyzed and you will go up or down a level in the path. Each level up means less clues to help you.\nWhen you clear the top level, your behaviour on the app will have improved and you won\'t need the app help anymore.</string>
+    <string name="tutorial_p6_title">Chat</string>
+    <string name="tutorial_p6">CoachBot will help you setting up StepByStep in all the main moments. Allow it to guide you through setting up your paths and feel free to ask whatever you don\'t understand.</string>
+
+    <string name="delete_info">Swipe a Path right to left to delete it</string>
+    <string name="tutorial_image">tutorial image</string>
+
+    <string name="search">Search</string>
+    <string name="check_usage">Check Usage</string>
+
+    <string name="reset_int">Reset Intervention</string>
+    <string name="reset_int_dialog">Are you sure you want to reset the status of all current Intervention? No results will be saved for the running ones.\nThis option should be used only if the app crashes when you try to start/stop an intervention.</string>
+
+    <string name="label_chat">Chat</string>
+    <string name="label_path_creation">Create path</string>
+    <string name="welcomeToChat">Hi! I can help you personalize your path. Do you want to know the suggestions for the apps, the time and the interventions you should use?</string>
+    <string name="utter_suggestion">Here are our raccomandations for you:</string>
+    <string name="no_bad_behaviour_msg">You haven\'t used any app in a dangerous way so far, so I have no suggestions for you</string>
+    <string name="unused_app_msg">You can\'t start a path on an app you haven\'t used recently. Use it and try again</string>
+
+    <string name="selected_apps">selected app for path</string>
+    <string name="included_app">Included</string>
+    <string name="excluded_app">excluded</string>
+
+    <string name="monitoring_phase_message">Please use your phone as usual. \nFor studying purposes we will monitor your phone usage until %1$s/%2$s at %3$s:%4$s. \n\nYou\'ll get a notification when monitoring phase is over.</string>
+    <string name="monitoring_phase_message_chat">Hi! You can\'t use this feature yet! Wait for the monitoring phase to end</string>
+    <string name="monitoring_phase">MONITORING PHASE</string>
+    <string name="modify_command">$modify</string>
+    <string name="create_command">$create</string>
+    <string name="mod_saved_command">$modifications_saved</string>
+    <string name="provide_suggestions_command">$provide_suggestions</string>
+    <string name="main_page_command">$main_page</string>
+    <string name="manual_suggestion_command">$manual_suggestion</string>
+    <string name="check_connetion_message">Check your connection</string>
+    <string name="base_chat_start">eow</string>
+    <string name="manual_chat_start">manual</string>
+    <string name="proactivity_chat_start">proactivity</string>
+    <string name="save_chat_start">save</string>
+    <string name="modify_complete_chat_start">modify_complete</string>
+
+
+</resources>
